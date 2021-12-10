@@ -1,0 +1,15 @@
+package AtividadeProgIII.Atividade4;
+
+public class Main {
+    public static void main(String[] args) {
+//         Na função main realize a instanciação de alguns objetos do tipo CartaLacaio ou CartaMagia (pelo 
+// menos um de cada) com valores de atributos quaisquer conforme sua imaginação. Após instanciar os 
+// objetos, imprima seus dados utilizando o método System.out.println() com o toString
+        CartaLacaio cartaLacaio = new CartaLacaio(12345, "Innit", 7, 100, 250, 20);
+        CartaMagia cartaMagia = new CartaMagia(6789, "Itsnot", 15, true, 15);
+
+        System.out.println(cartaLacaio);
+        System.out.println("================");
+        System.out.println(cartaMagia);
+    }
+}
